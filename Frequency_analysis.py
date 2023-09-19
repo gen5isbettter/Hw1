@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-with open(r"C:\Users\ianki\Desktop\grad school\Cs578\ciphertext.txt") as f:
+with open(r"YOUR_FILE_PATH") as f:
     ciphertext = f.read()
     print(ciphertext)
 

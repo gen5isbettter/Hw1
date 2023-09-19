@@ -19,7 +19,6 @@ while True:
         else:
             lfsr[0] = feedback
             output += str(lfsr[9])
-            print(len(output))
     if (lfsr == start_state):
         period = len(output)
         break
